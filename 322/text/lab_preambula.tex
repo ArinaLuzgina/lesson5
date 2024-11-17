@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english,russian]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX}, Renderer=Basic}
+\setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
+
+\usepackage[left=20mm, top=15mm, right=10mm, bottom=15mm, footskip=10mm]{geometry}
+\usepackage[fontsize=14pt]{scrextend}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{sectsty}
+%\allsectionsfont{\centering}
+\sectionfont{\centering\fontspec{Comic Sans MS}}
+\subsectionfont{\raggedright\fontspec{Arial}}
+\subsubsectionfont{\raggedleft\fontspec{Times New Roman}}
+\usepackage{wasysym}
+
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf, .png, .jpg}
+
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+
+\usepackage{amsthm,amsfonts, amssymb, mathtools}
+\usepackage{titleps}
+\newpagestyle{main}{
+	\setheadrule{0.4pt}
+	\sethead{лево}{центр}{право}
+	\setfootrule{0.4pt}
+	\setfoot{лево}{\thepage}{право}
+}
+\pagestyle{main}
+
+\usepackage{indentfirst}
+
+%\renewcommand{\kappa}{\varkappa}
+%\renewcommand{\epsilon}{\varepsilon}
+%\DeclareMathOperator{\Kerr}{Ker}
+%\DeclareMathOperator*{\argmax}{argmax}
+%\newcommand{\percent}{\mathbin{\%}}
+
+
+\usepackage{enumitem}
+
+\usepackage{tikz}
